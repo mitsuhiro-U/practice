@@ -5,11 +5,19 @@ header{
     background-color: #EC715F;
     height: 70px;
     width: 100%;
+    display: flex;
+    justify-content: center; 
 }
 
-ul{
+nav{
     height: 70px;
     width: 1024px;
+    background-color: black;
+    
+}
+
+.nav-bar{
+    
 }
 
 .nav-title{
@@ -19,7 +27,7 @@ ul{
 .nav-lists{
     height: 70px;
     display: inline-block;
-    margin: 0 30px;
+    margin: 0 30px 30px 30px;
     font-size: 16px;
     color: white;
     line-height: 70px;
