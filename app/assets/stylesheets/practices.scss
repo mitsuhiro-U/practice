@@ -1,23 +1,32 @@
 // Place all the styles related to the practices controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 header{
     background-color: #EC715F;
-    height: 70px;
     width: 100%;
     display: flex;
     justify-content: center; 
 }
 
 nav{
-    height: 70px;
+    display: inline-block;
     width: 1024px;
     background-color: black;
     
 }
 
 .nav-bar{
-    padding: 0px;
+    display: flex;
+    justify-content: right; 
+    height: 70px;
+    line-height: 70px;
+    
     
 }
 
@@ -26,11 +35,9 @@ nav{
 }
 
 .nav-lists{
-    height: 70px;
     display: inline-block;
-    margin: 0 30px 30px 30px;
+    margin: 0 30px;
     font-size: 16px;
     color: white;
-    line-height: 70px;
 }
 
